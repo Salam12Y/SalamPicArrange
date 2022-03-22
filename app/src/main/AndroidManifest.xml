@@ -29,11 +29,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".SplashActivity"
-            android:exported="true"
-            android:label="@string/title_activity_splash"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".FullExample.MainSimpleLabelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

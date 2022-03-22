@@ -3,7 +3,7 @@ apply plugin: 'com.google.gms.google-services'
 //apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.2"
     aaptOptions {
         noCompress "tflite"  // Your model's file extension: "tflite", "lite", etc.
@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "abbas.samih.mlfirebasetest"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
