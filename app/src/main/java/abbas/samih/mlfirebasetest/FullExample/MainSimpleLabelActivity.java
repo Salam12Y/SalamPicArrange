@@ -56,7 +56,6 @@ public class MainSimpleLabelActivity extends BaseActivity implements View.OnClic
         setContentView(R.layout.activity_simple_image_label2);
         mTextView = findViewById(R.id.textView);
         mImageView = findViewById(R.id.imageView);
-
         bntDevice=findViewById(R.id.btn_device);
         bntDevice.setOnClickListener(this);
 

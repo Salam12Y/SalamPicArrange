@@ -1,4 +1,5 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -9,12 +10,12 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="5dp" >
+        android:padding="5dp">
 
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/border" >
+            android:background="@drawable/border">
 
             <ImageView
                 android:id="@+id/gallery_imageview"
@@ -48,13 +49,32 @@
 
         <Button
             android:id="@+id/change_image"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:layout_marginTop="20dp"
             android:padding="10dp"
             android:text="@string/change_image" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnAlbums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albums" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
     </LinearLayout>
 
 </ScrollView>
