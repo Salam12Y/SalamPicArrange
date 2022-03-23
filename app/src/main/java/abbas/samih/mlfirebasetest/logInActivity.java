@@ -13,6 +13,9 @@ public class logInActivity extends AppCompatActivity
 {
     private TextInputEditText etEmail,etpassword;
     private Button btnLogIn,btnRegister;
+    private TextView tvMember;
+    private ImageView imgv2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,9 @@ public class logInActivity extends AppCompatActivity
         etpassword=findViewById(R.id. etpassword);
         btnLogIn=findViewById(R.id. btnLogIn);
         btnRegister=findViewById(R.id. btnRegister);
+        tvMember=findViewById(R.id. tvMember);
+        imgv2=findViewById(R.id. imgv2);
+
 
     }
 }

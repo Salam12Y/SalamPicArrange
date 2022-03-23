@@ -35,5 +35,6 @@ public class AddAlbum extends AppCompatActivity
         String NewAlbum=tvNewAlbum.getText().toString();
         String name= TinputET.getText().toString();
 
+
     }
 }

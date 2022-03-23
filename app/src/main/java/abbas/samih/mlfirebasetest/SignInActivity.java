@@ -20,6 +20,7 @@ import abbas.samih.mlfirebasetest.FullExample.BaseActivity;
 public class SignInActivity extends AppCompatActivity {
     private TextInputEditText etEmail, etPassword, etRepassword, etPhone, etFullName;
     private Button btnSave;
+    private TextView tvSignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class SignInActivity extends AppCompatActivity {
         etPhone = findViewById(R.id.etPhone);
         btnSave = findViewById(R.id.btnSave);
         etFullName = findViewById(R.id.etFullName);
-
+        tvSignUp = findViewById(R.id.tvSignUp);
               /**
                 *
                 */

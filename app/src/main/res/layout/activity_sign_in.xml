@@ -10,9 +10,8 @@
         android:id="@+id/textInputLayout"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="85dp">
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="86dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
@@ -92,10 +91,10 @@
 
     <TextView
         android:id="@+id/tvSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign up"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="51dp" />
+        android:layout_width="155dp"
+        android:layout_height="24dp"
+        android:text="Sign in for PicArrange"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="49dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
