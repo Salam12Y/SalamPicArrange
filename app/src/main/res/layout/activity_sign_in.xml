@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/system_accent3_400"
+    android:backgroundTint="@color/material_dynamic_tertiary60"
     tools:context=".SignInActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -91,9 +93,10 @@
 
     <TextView
         android:id="@+id/tvSignUp"
-        android:layout_width="155dp"
-        android:layout_height="24dp"
+        android:layout_width="237dp"
+        android:layout_height="32dp"
         android:text="Sign in for PicArrange"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="49dp" />
 

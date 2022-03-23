@@ -11,8 +11,6 @@ import abbas.samih.mlfirebasetest.FullExample.BaseActivity;
 
 public class SplashScreen extends AppCompatActivity
 {
-private TextView tvWelcome;
-private ImageView imview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +40,6 @@ private ImageView imview;
         };
         // Thread 4.
         th.start();
-        imview = findViewById(R.id.imview);
 
     }
 }

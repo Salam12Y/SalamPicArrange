@@ -15,8 +15,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
-            android:layout_width="346dp"
-            android:layout_height="match_parent"
+            android:layout_width="389dp"
+            android:layout_height="66dp"
             android:hint="email" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -25,12 +25,12 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="181dp">
+        tools:layout_editor_absoluteY="183dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etpassword"
-            android:layout_width="349dp"
-            android:layout_height="match_parent"
+            android:layout_width="387dp"
+            android:layout_height="65dp"
             android:hint="password" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -40,30 +40,31 @@
         android:layout_height="55dp"
         android:text="LogIn"
         tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="267dp" />
+        tools:layout_editor_absoluteY="284dp" />
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="142dp"
         android:layout_height="37dp"
         android:text="Sign in here "
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="343dp" />
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="374dp" />
 
     <TextView
         android:id="@+id/tvMember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Not a PicArrange Member?"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="352dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="374dp" />
 
     <ImageView
         android:id="@+id/imgv2"
         android:layout_width="83dp"
         android:layout_height="77dp"
         android:src="@mipmap/ic_launcher13_foreground"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="27dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
