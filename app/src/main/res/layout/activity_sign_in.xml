@@ -10,13 +10,13 @@
         android:id="@+id/textInputLayout"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="85dp">
+        tools:layout_editor_absoluteY="93dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
-            android:layout_width="349dp"
+            android:layout_width="368dp"
             android:layout_height="match_parent"
             android:hint="email"
             tools:layout_editor_absoluteX="51dp"
@@ -69,11 +69,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnSave"
-        android:layout_width="105dp"
-        android:layout_height="66dp"
+        android:id="@+id/btnAdd"
+        android:layout_width="104dp"
+        android:layout_height="39dp"
         android:text="Save"
-        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="356dp" />
 
     <com.google.android.material.textfield.TextInputLayout
