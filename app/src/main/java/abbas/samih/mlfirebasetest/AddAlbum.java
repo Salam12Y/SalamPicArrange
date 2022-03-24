@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 
-import Mydata.Mytask;
+import Mydata.MyAlbum;
 
 public class AddAlbum extends AppCompatActivity {
     private TextView tvNewAlbum;
@@ -43,12 +43,11 @@ public class AddAlbum extends AppCompatActivity {
             isOk = false;
         }
         if (isOk) {
-            Mytask t = new Mytask();
+            MyAlbum t = new MyAlbum();
             t.setName(name);
             t.setContent(Content);
             //current user uid
             String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-
         }
 
 
