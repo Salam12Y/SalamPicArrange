@@ -26,16 +26,23 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="227dp" />
+        android:text="add"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="43dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
+        android:layout_width="357dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:layout_editor_absoluteY="157dp"/>
+        android:hint="Album Content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="190dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contTeInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

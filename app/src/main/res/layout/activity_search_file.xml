@@ -14,8 +14,8 @@
 
     <SearchView
         android:id="@+id/searchVie"
-        android:layout_width="282dp"
-        android:layout_height="51dp"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="56dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,7 +30,7 @@ public class SignInActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         etRepassword = findViewById(R.id.etRePassword);
         etPhone = findViewById(R.id.etPhone);
-        btnSave = findViewById(R.id.btnSave);
+        btnSave = findViewById(R.id.btnAdd);
         etFullName = findViewById(R.id.etFullName);
         tvSignUp = findViewById(R.id.tvSignUp);
               /**

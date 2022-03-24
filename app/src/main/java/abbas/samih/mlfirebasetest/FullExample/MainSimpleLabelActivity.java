@@ -49,6 +49,7 @@ public class MainSimpleLabelActivity extends BaseActivity implements View.OnClic
     private ImageView mImageView;
     private static TextView mTextView;
     private Button bntDevice;
+    private Uri dataUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +71,7 @@ public class MainSimpleLabelActivity extends BaseActivity implements View.OnClic
                     checkStoragePermission(requestCode);
                     break;
                 case RC_SELECT_PICTURE:
-                    Uri dataUri = data.getData();
+                     dataUri = data.getData();
                     String path = MyHelper.getPath(this, dataUri);
 
                     if (path == null) {
