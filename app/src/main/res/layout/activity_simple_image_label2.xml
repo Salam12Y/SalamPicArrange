@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:backgroundTint="#009688"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -23,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:src="@drawable/ic_launcher_foreground" />
+
             <Button
                 android:id="@+id/change_image"
                 android:layout_width="493dp"
@@ -44,11 +47,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Albums" />
+
             <Button
                 android:id="@+id/btn_device"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Device" />
+
+            <Button
+                android:id="@+id/btn_cloud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cloud" />
 
             <TextView
                 android:id="@+id/textView"
@@ -56,12 +66,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-            <Button
-                android:id="@+id/btn_cloud"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cloud" />
 
         </LinearLayout>
 

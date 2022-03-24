@@ -6,19 +6,21 @@
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_add_album.xml" value="0.5645514223194749" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_client_maps.xml" value="1.0460526315789473" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_experiment1.xml" value="1.0460526315789473" />
-        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_log_in.xml" value="1.1" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_log_in.xml" value="0.5998336106489185" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_main.xml" value="0.6500461680517082" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_main_simple_label.xml" value="1.0460526315789473" />
-        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_search_file.xml" value="1.363486842105263" />
-        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_sign_in.xml" value="1.1533586818757922" />
-        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_simple_image_label2.xml" value="0.8606356968215159" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_search_file.xml" value="0.7537473233404711" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_sign_in.xml" value="0.9511873350923483" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_simple_image_label2.xml" value="0.7183673469387755" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/activity_splash.xml" value="1.3766447368421053" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/add_album.xml" value="1.0" />
-        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/content_splash.xml" value="1.3766447368421053" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/all_albums.xml" value="1.1858552631578947" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/content_splash.xml" value="0.6704761904761904" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/controls.xml" value="1.0460526315789473" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/fragment_first.xml" value="1.363486842105263" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/fragment_second.xml" value="1.3766447368421053" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/main.xml" value="1.0460526315789473" />
+        <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/photos_in_albums.xml" value="1.1858552631578947" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/layout/sensors_data.xml" value="1.0460526315789473" />
         <entry key="..\:/MLFireBaseTest/app/src/main/res/menu/my_menu.xml" value="1.0" />
       </map>

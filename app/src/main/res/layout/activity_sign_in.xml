@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/system_accent3_400"
+    android:background="#A9B9A1E3"
     android:backgroundTint="@color/material_dynamic_tertiary60"
     tools:context=".SignInActivity">
 
@@ -95,6 +95,8 @@
         android:id="@+id/tvSignUp"
         android:layout_width="237dp"
         android:layout_height="32dp"
+        android:background="@color/colorAccent"
+        android:backgroundTint="#0A8E0F0F"
         android:text="Sign in for PicArrange"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="112dp"

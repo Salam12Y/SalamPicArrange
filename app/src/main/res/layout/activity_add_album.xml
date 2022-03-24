@@ -2,47 +2,50 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#B39437"
+    android:backgroundTint="#6F673AB7">
 
     <TextView
         android:id="@+id/tvNewAlbum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Album"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="21dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="338dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="91dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/TinputET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Album Name " />
-    </com.google.android.material.textfield.TextInputLayout>
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="43dp" />
 
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="add"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="43dp" />
+        tools:layout_editor_absoluteX="462dp"
+        tools:layout_editor_absoluteY="293dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="357dp"
         android:layout_height="wrap_content"
         android:hint="Album Content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="190dp">
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="146dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/contTeInp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="217dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TinputET"
+            android:layout_width="360dp"
+            android:layout_height="51dp"
+            android:hint="Album Name " />
     </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
